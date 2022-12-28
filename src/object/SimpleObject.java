@@ -1,7 +1,11 @@
 package src.object;
 
-public class SimpleObject {
+
+public abstract class SimpleObject {
 
     String name;
+
+    public abstract void doAction1();
+    public abstract void doAction2();
 
 }
